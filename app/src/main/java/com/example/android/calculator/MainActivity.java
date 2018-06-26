@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         prec.put("/",2);
         prec.put("+",1);
         prec.put("-",1);
-        stackTextView = (TextView)findViewById(R.id.stack);
-        resultTextView = (TextView)findViewById(R.id.result);
+        stackTextView = findViewById(R.id.stack);
+        resultTextView = findViewById(R.id.result);
     }
 
     public void handleClick(View view){
